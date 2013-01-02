@@ -1,0 +1,266 @@
+DELETE FROM `creature_questrelation` WHERE `id` = 34668;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,14070);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,14115);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,14116);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,14122);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,14125);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,14126);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,14138);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34668,28349);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 34668;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34668,14070);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34668,14113);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34668,14115);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34668,14120);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34668,14122);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34668,24520);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34668,25473);
+
+
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 34872;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34872,14069);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34872,14075);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34872,14124);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34872,25473);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 34872;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34872,14069);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34872,14075);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34872,14124);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34872,14138);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 34874;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34874,14071);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34874,14121);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34874,24567);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34874,28607);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 34874;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34874,14071);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34874,14121);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34874,28349);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34874,28607);
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 34693;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34693,14010);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (34693,14123);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 34693;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34693,14010);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (34693,14123);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 37602;
+DELETE FROM `creature_involvedrelation` WHERE `id` = 37602;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (37602,14125);
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 37106;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (37106,24488);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (37106,24502);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (37106,24520);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (37106,28414);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 37106;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (37106,24488);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (37106,24502);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (37106,24567);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (37106,28414);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35053;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35053,14113);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35053,26712);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35053;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35053,14109);
+
+
+
+
+
+DELETE FROM `creature_template` WHERE `entry`=35128 LIMIT 1;
+INSERT INTO `creature_template` ( `entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `modelid1`, `modelid2`, `modelid3`, `modelid4`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction_A`, `faction_H`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `mindmg`, `maxdmg`, `dmgschool`, `attackpower`, `dmg_multiplier`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `dynamicflags`, `family`, `trainer_type`, `trainer_spell`, `trainer_class`, `trainer_race`, `minrangedmg`, `maxrangedmg`, `rangedattackpower`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `resistance1`, `resistance2`, `resistance3`, `resistance4`, `resistance5`, `resistance6`, `spell1`, `spell2`, `spell3`, `spell4`, `spell5`, `spell6`, `spell7`, `spell8`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `InhabitType`, `Health_mod`, `Mana_mod`, `Armor_mod`, `RacialLeader`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `movementId`, `RegenHealth`, `equipment_id`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`, `WDBVerified`) VALUES ( 35128, 0, 0, 0, 0, 0, 29621, 0, 0, 0, "Szabo", "Custom Clothier", "", 0, 3, 3, 0, 2159, 2159, 129, 1.0, 1.0, 1.0, 0, 5, 57, 0, 53, 1.0, 2000, 0, 1, 32768, 2048, 0, 0, 0, 0, 0, 5, 57, 53, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15, "", 0, 3, 1.0, 1.0, 1.0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 35128, 0, 0, "", "1");
+
+
+
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`) VALUES
+(35128, 0, 47046, 0, 0, 0);
+
+
+
+DELETE FROM `creature_template` WHERE `entry`=49887 LIMIT 1;
+INSERT INTO `creature_template` ( `entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `modelid1`, `modelid2`, `modelid3`, `modelid4`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction_A`, `faction_H`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `mindmg`, `maxdmg`, `dmgschool`, `attackpower`, `dmg_multiplier`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `dynamicflags`, `family`, `trainer_type`, `trainer_spell`, `trainer_class`, `trainer_race`, `minrangedmg`, `maxrangedmg`, `rangedattackpower`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `resistance1`, `resistance2`, `resistance3`, `resistance4`, `resistance5`, `resistance6`, `spell1`, `spell2`, `spell3`, `spell4`, `spell5`, `spell6`, `spell7`, `spell8`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `InhabitType`, `Health_mod`, `Mana_mod`, `Armor_mod`, `RacialLeader`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `movementId`, `RegenHealth`, `equipment_id`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`, `WDBVerified`) VALUES ( 49887, 0, 0, 0, 0, 0, 29620, 0, 0, 0, "Gappy Silvertooth", "Bling Merchant", "", 1120, 3, 3, 0, 2159, 2159, 129, 1.0, 1.0, 1.0, 0, 5, 7, 0, 53, 1.0, 2000, 0, 1, 32768, 2048, 0, 0, 0, 0, 0, 5, 7, 53, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15, "", 0, 3, 1.0, 1.0, 1.0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 49887, 0, 0, "", "1");
+
+
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`) VALUES
+(49887, 0, 7337, 0, 0, 0),
+(49887, 0, 7338, 0, 0, 0),
+(49887, 0, 7339, 0, 0, 0),
+(49887, 0, 7340, 0, 0, 0),
+(49887, 0, 7341, 0, 0, 0),
+(49887, 0, 7342, 0, 0, 0),
+(49887, 0, 32767, 0, 0, 0),
+(49887, 0, 47045, 0, 0, 0),
+(49887, 0, 47045, 0, 0, 3034);
+
+
+DELETE FROM `creature_template` WHERE `entry`=35130 LIMIT 1;
+INSERT INTO `creature_template` ( `entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `modelid1`, `modelid2`, `modelid3`, `modelid4`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction_A`, `faction_H`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `mindmg`, `maxdmg`, `dmgschool`, `attackpower`, `dmg_multiplier`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `dynamicflags`, `family`, `trainer_type`, `trainer_spell`, `trainer_class`, `trainer_race`, `minrangedmg`, `maxrangedmg`, `rangedattackpower`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `resistance1`, `resistance2`, `resistance3`, `resistance4`, `resistance5`, `resistance6`, `spell1`, `spell2`, `spell3`, `spell4`, `spell5`, `spell6`, `spell7`, `spell8`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `InhabitType`, `Health_mod`, `Mana_mod`, `Armor_mod`, `RacialLeader`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `movementId`, `RegenHealth`, `equipment_id`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`, `WDBVerified`) VALUES ( 35130, 0, 0, 0, 0, 0, 29622, 0, 0, 0, "Missa Spekkies", "Shades Peddler", "", 0, 3, 3, 0, 2159, 2159, 129, 1.0, 1.0, 1.0, 0, 5, 7, 0, 53, 1.0, 2000, 0, 1, 32768, 2048, 0, 0, 0, 0, 0, 5, 7, 53, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15, "", 0, 3, 1.0, 1.0, 1.0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 35130, 0, 0, "", "1");
+
+
+
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`) VALUES
+(35130, 0, 47047, 0, 0, 0);
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35222;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35222,14120);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35222;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35222,14116);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 39615;
+DELETE FROM `creature_involvedrelation` WHERE `id` = 39615;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (39615,14126);
+
+
+
+INSERT INTO `quest_end_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, `dataint`, `x`, `y`, `z`, `o`) VALUES
+(14126, 30, 14, 69010, 0, 0, 0, 0, 0, 0),
+(14212, 5, 15, 648, 0, 0, 910.607971, 2307.889893, 8.684810, 1.610040),
+(14126, 1, 14, 59073, 0, 0, 0, 0, 0, 0),
+(14126, 3, 34, 22, 0, 0, 0, 0, 0, 0),
+(14126, 2, 6, 648, 0, 0, 533.77, 3274.62, 0.198194, 4.90527);
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35650;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35650,14014);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35650,14234);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35650,14248);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35650;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35650,14001);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35650,14014);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35650,14031);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35650,14233);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35650,14474);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35786;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35786,14473);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35786;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35786,14473);
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 38738;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (38738,24942);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (38738,24952);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (38738,25201);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 38738;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (38738,24940);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (38738,24942);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (38738,25201);
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35758;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35758,14019);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35758;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35758,14019);
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35837;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35837,14233);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35837;
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35769;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35769,14021);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35769,14031);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35769;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35769,14021);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35769,14248);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35875;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35875,14235);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35875,14237);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35875;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35875,14234);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35875,14303);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35893;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35893,14236);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35893,14303);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35893;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35893,14235);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35893,14236);
+
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 35917;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35917,14238);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (35917,14240);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 35917;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35917,14237);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (35917,14238);
+
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 36112;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (36112,14241);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 36112;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (36112,14240);
+
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 36127;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (36127,14242);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 36127;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (36127,14241);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (36127,14242);
+
+
+
+
+
